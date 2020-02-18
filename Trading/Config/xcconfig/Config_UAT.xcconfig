@@ -1,0 +1,11 @@
+//
+//  Config_UAT.xcconfig
+//
+//
+//  Created by
+//  Copyright © 2019 Capco. All rights reserved.
+
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+EnvConfigFile = ConfigUAT
