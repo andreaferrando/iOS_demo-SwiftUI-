@@ -1,8 +1,8 @@
 //
-//  ViewControllerItem.swift
+//  PostResponseModel.swift
 //
-//  Created by Capco.
-//  Copyright © 2019 Capco. All rights reserved.
+//  Created by Andrea Ferrando.
+//  Copyright © 2020 Andrea Ferrando. All rights reserved.
 //
 
 import Foundation
@@ -63,17 +63,3 @@ extension Post {
         return PostResponseModel(id: Int(self.id), userId: Int(self.userId), title: self.title ?? "", body: self.body ?? "")
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

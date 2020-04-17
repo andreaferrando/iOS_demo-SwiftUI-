@@ -1,8 +1,8 @@
 //
 //  HomePresenter.swift
 //
-//  Created by Capco.
-//  Copyright © 2019 Capco. All rights reserved.
+//  Created by Andrea Ferrando
+//  Copyright © 2020 Andrea Ferrando. All rights reserved.
 //
 
 import Foundation
@@ -51,35 +51,18 @@ extension HomePresenter {
         postsCancellable = self.interactor._$postsViewModel
             .receive(on: RunLoop.main)
             .sink(receiveCompletion: { completion in
-                print("COMPLETION")
                 switch completion {
                 case .failure(let error):
-                    print("ERROR \(error)")
+                    print("error \(error)")
                 case .finished:
                     break
                 }
             }) { postsViewModel in
-                print("postsViewModel",postsViewModel)
                 self.posts = postsViewModel
         }
     }
 
     func getPosts() {
         interactor.getPosts()
-
-//        postsCancellable = interactor.getPosts()
-//        .receive(on: RunLoop.main)
-//        .sink(receiveCompletion: { completion in
-//            print("COMPLETION")
-//            switch completion {
-//            case .failure(let error):
-//                print("ERROR \(error)")
-//            case .finished:
-//                break
-//            }
-//        }) { postsViewModel in
-//            print("postsViewModel",postsViewModel)
-//            self.posts = postsViewModel
-//        }
     }
 }

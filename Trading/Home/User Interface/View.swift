@@ -8,7 +8,6 @@
 
 import SwiftUI
 import Combine
-import ASCollectionView
 
 struct HomeView: View {
 
@@ -19,22 +18,14 @@ struct HomeView: View {
     }
 
     var body: some View {
-
         NavigationView {
-            ASCollectionView(data: self.presenter.posts, dataID: \.id) { item, _ in
-            Color.blue
-                .overlay(
-                    Text("\(item.title)")
+            List(self.presenter.posts, id: \.id) { post in
+                NavigationLink(destination: PostDetailsView(presenter: PostDetailsRouter.makePresenter(postId: post.id))) {
+                   Text(post.title)
                     .minimumScaleFactor(0.5)
                     .lineLimit(1)
-                )
-        }
-        .layout {
-            .grid(layoutMode: .adaptive(withMinItemSize: 100),
-                  itemSpacing: 5,
-                  lineSpacing: 5,
-                  itemSize: .absolute(50))
-        }
+                }
+            }.navigationBarTitle(Constants.NavigationBarTitle.posts)
         }.onAppear {
             self.presenter.didReceiveEvent(.viewAppears)
         }.onDisappear {

@@ -3,7 +3,7 @@
 //  TradingTests
 //
 //  Created by Ferrando, Andrea on 09/04/2019.
-//  Copyright © 2019 Capco. All rights reserved.
+//  Copyright © 2020 Andrea Ferrando. All rights reserved.
 //
 
 import XCTest

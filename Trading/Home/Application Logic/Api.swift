@@ -1,27 +1,13 @@
 //
 //  HomeAPIManager.swift
 //
-//  Created by Capco.
-//  Copyright © 2019 Capco. All rights reserved.
+//  Created by Andrea Ferrando
+//  Copyright © 2020 Andrea Ferrando. All rights reserved.
 //
 
 import Foundation
 import Combine
 //https://heckj.github.io/swiftui-notes/#coreconcepts-publisher-subscriber
-enum APIServiceError: Error, LocalizedError {
-    case unknown, api(reason: String), parsing(reason: String), network(from: URLError)
-
-    var errorDescription: String? {
-        switch self {
-        case .unknown:
-            return "Unknown error"
-        case .api(let reason), .parsing(let reason):
-            return reason
-        case .network(let from):
-            return from.localizedDescription
-        }
-    }
-}
 
 class HomeAPIManager: HomeInteractorToAPIManagerProtocol {
     

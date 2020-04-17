@@ -62,6 +62,19 @@
 		66BC4601225F51BE005208CE /* ViewControllerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC45FA225F51BE005208CE /* ViewControllerViewTests.swift */; };
 		66BC4602225F51BE005208CE /* ViewControllerInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC45FC225F51BE005208CE /* ViewControllerInteractorTests.swift */; };
 		66BC4603225F51BE005208CE /* ViewControllerRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC45FE225F51BE005208CE /* ViewControllerRouterTests.swift */; };
+		66BEFE8923FC4FA4008CB63C /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BEFE8623FC4FA4008CB63C /* Detail.swift */; };
+		66BEFE8A23FC4FA4008CB63C /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BEFE8723FC4FA4008CB63C /* Comment.swift */; };
+		66BEFE8B23FC4FA4008CB63C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BEFE8823FC4FA4008CB63C /* User.swift */; };
+		66BEFEAA23FC528C008CB63C /* InteractorPostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BEFEA123FC528C008CB63C /* InteractorPostDetails.swift */; };
+		66BEFEAB23FC528C008CB63C /* ApiPostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BEFEA223FC528C008CB63C /* ApiPostDetails.swift */; };
+		66BEFEAC23FC528C008CB63C /* ParserPostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BEFEA323FC528C008CB63C /* ParserPostDetails.swift */; };
+		66BEFEAD23FC528C008CB63C /* DataManagerPostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BEFEA423FC528C008CB63C /* DataManagerPostDetails.swift */; };
+		66BEFEAE23FC528C008CB63C /* PresenterPostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BEFEA623FC528C008CB63C /* PresenterPostDetails.swift */; };
+		66BEFEAF23FC528C008CB63C /* ViewPostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BEFEA723FC528C008CB63C /* ViewPostDetails.swift */; };
+		66BEFEB023FC528C008CB63C /* RouterPostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BEFEA823FC528C008CB63C /* RouterPostDetails.swift */; };
+		66BEFEB123FC528C008CB63C /* ProtocolsPostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BEFEA923FC528C008CB63C /* ProtocolsPostDetails.swift */; };
+		66BEFEB323FC52D9008CB63C /* Errors+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BEFEB223FC52D9008CB63C /* Errors+Utils.swift */; };
+		66BEFEB523FD4A3E008CB63C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BEFEB423FD4A3E008CB63C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +131,19 @@
 		66BC45FA225F51BE005208CE /* ViewControllerViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerViewTests.swift; sourceTree = "<group>"; };
 		66BC45FC225F51BE005208CE /* ViewControllerInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerInteractorTests.swift; sourceTree = "<group>"; };
 		66BC45FE225F51BE005208CE /* ViewControllerRouterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerRouterTests.swift; sourceTree = "<group>"; };
+		66BEFE8623FC4FA4008CB63C /* Detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		66BEFE8723FC4FA4008CB63C /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		66BEFE8823FC4FA4008CB63C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		66BEFEA123FC528C008CB63C /* InteractorPostDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorPostDetails.swift; sourceTree = "<group>"; };
+		66BEFEA223FC528C008CB63C /* ApiPostDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiPostDetails.swift; sourceTree = "<group>"; };
+		66BEFEA323FC528C008CB63C /* ParserPostDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParserPostDetails.swift; sourceTree = "<group>"; };
+		66BEFEA423FC528C008CB63C /* DataManagerPostDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManagerPostDetails.swift; sourceTree = "<group>"; };
+		66BEFEA623FC528C008CB63C /* PresenterPostDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterPostDetails.swift; sourceTree = "<group>"; };
+		66BEFEA723FC528C008CB63C /* ViewPostDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPostDetails.swift; sourceTree = "<group>"; };
+		66BEFEA823FC528C008CB63C /* RouterPostDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterPostDetails.swift; sourceTree = "<group>"; };
+		66BEFEA923FC528C008CB63C /* ProtocolsPostDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolsPostDetails.swift; sourceTree = "<group>"; };
+		66BEFEB223FC52D9008CB63C /* Errors+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Errors+Utils.swift"; sourceTree = "<group>"; };
+		66BEFEB423FD4A3E008CB63C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +178,7 @@
 				661082A1225DEBB500C2F03D /* CoreData+Utils.swift */,
 				661082A2225DEBB500C2F03D /* UINavigationController+Utils.swift */,
 				661082A7225DED5500C2F03D /* UIViewController+Utils.swift */,
+				66BEFEB223FC52D9008CB63C /* Errors+Utils.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -162,6 +189,7 @@
 				6615FEE223F441F100BC1418 /* APIService.swift */,
 				6615FEE523F446A600BC1418 /* JsonReader.swift */,
 				6615FEED23F44C5600BC1418 /* Parsing.swift */,
+				66BEFEB423FD4A3E008CB63C /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -193,6 +221,7 @@
 				6696837923F407A200AA4CC8 /* SceneDelegate.swift */,
 				662CCE1423F45B380011F807 /* Models */,
 				6696837A23F407A200AA4CC8 /* Home */,
+				66BEFE9F23FC528C008CB63C /* PostDetails */,
 				6696839B23F407AD00AA4CC8 /* Storyboards */,
 				66280A50225CDB660080664A /* Assets.xcassets */,
 				66280A46225CDB640080664A /* AppDelegate.swift */,
@@ -252,17 +281,12 @@
 		662CCE1423F45B380011F807 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				662CCE1923F462E90011F807 /* Post */,
+				6696838523F407A300AA4CC8 /* Post.swift */,
+				66BEFE8723FC4FA4008CB63C /* Comment.swift */,
+				66BEFE8623FC4FA4008CB63C /* Detail.swift */,
+				66BEFE8823FC4FA4008CB63C /* User.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		662CCE1923F462E90011F807 /* Post */ = {
-			isa = PBXGroup;
-			children = (
-				6696838523F407A300AA4CC8 /* Post.swift */,
-			);
-			path = Post;
 			sourceTree = "<group>";
 		};
 		667F3FA4225CE76A00A57D60 /* Mock */ = {
@@ -379,6 +403,37 @@
 				66BC45FE225F51BE005208CE /* ViewControllerRouterTests.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		66BEFE9F23FC528C008CB63C /* PostDetails */ = {
+			isa = PBXGroup;
+			children = (
+				66BEFEA923FC528C008CB63C /* ProtocolsPostDetails.swift */,
+				66BEFEA023FC528C008CB63C /* Application Logic */,
+				66BEFEA523FC528C008CB63C /* User Interface */,
+			);
+			path = PostDetails;
+			sourceTree = "<group>";
+		};
+		66BEFEA023FC528C008CB63C /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				66BEFEA123FC528C008CB63C /* InteractorPostDetails.swift */,
+				66BEFEA223FC528C008CB63C /* ApiPostDetails.swift */,
+				66BEFEA323FC528C008CB63C /* ParserPostDetails.swift */,
+				66BEFEA423FC528C008CB63C /* DataManagerPostDetails.swift */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		66BEFEA523FC528C008CB63C /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				66BEFEA623FC528C008CB63C /* PresenterPostDetails.swift */,
+				66BEFEA723FC528C008CB63C /* ViewPostDetails.swift */,
+				66BEFEA823FC528C008CB63C /* RouterPostDetails.swift */,
+			);
+			path = "User Interface";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -600,23 +655,36 @@
 			files = (
 				661082A3225DEBB500C2F03D /* CoreData+Utils.swift in Sources */,
 				6696839123F407A300AA4CC8 /* Parser.swift in Sources */,
+				66BEFEAE23FC528C008CB63C /* PresenterPostDetails.swift in Sources */,
 				6615FEEE23F44C5600BC1418 /* Parsing.swift in Sources */,
+				66BEFEB123FC528C008CB63C /* ProtocolsPostDetails.swift in Sources */,
 				6696839023F407A300AA4CC8 /* SceneDelegate.swift in Sources */,
 				6696839823F407A300AA4CC8 /* View.swift in Sources */,
+				66BEFEB523FD4A3E008CB63C /* Constants.swift in Sources */,
+				66BEFEAA23FC528C008CB63C /* InteractorPostDetails.swift in Sources */,
 				6696839323F407A300AA4CC8 /* Api.swift in Sources */,
+				66BEFE8923FC4FA4008CB63C /* Detail.swift in Sources */,
 				6615FEE323F441F100BC1418 /* APIService.swift in Sources */,
 				6696839923F407A300AA4CC8 /* Router.swift in Sources */,
+				66BEFEAD23FC528C008CB63C /* DataManagerPostDetails.swift in Sources */,
 				6696839223F407A300AA4CC8 /* DataManager.swift in Sources */,
+				66BEFE8B23FC4FA4008CB63C /* User.swift in Sources */,
+				66BEFEB323FC52D9008CB63C /* Errors+Utils.swift in Sources */,
+				66BEFE8A23FC4FA4008CB63C /* Comment.swift in Sources */,
 				661082A8225DED5500C2F03D /* UIViewController+Utils.swift in Sources */,
 				6696839423F407A300AA4CC8 /* Interactor.swift in Sources */,
 				6696839723F407A300AA4CC8 /* Presenter.swift in Sources */,
 				66280B20225CE2410080664A /* Configuration.swift in Sources */,
 				66280A83225CDD5A0080664A /* AppDelegate.swift in Sources */,
 				6696839523F407A300AA4CC8 /* Post.swift in Sources */,
+				66BEFEB023FC528C008CB63C /* RouterPostDetails.swift in Sources */,
 				66280A84225CDD5A0080664A /* Trading.xcdatamodeld in Sources */,
 				6696839623F407A300AA4CC8 /* ViewControllerProtocols.swift in Sources */,
+				66BEFEAC23FC528C008CB63C /* ParserPostDetails.swift in Sources */,
+				66BEFEAB23FC528C008CB63C /* ApiPostDetails.swift in Sources */,
 				6615FEE623F446A600BC1418 /* JsonReader.swift in Sources */,
 				661082A4225DEBB500C2F03D /* UINavigationController+Utils.swift in Sources */,
+				66BEFEAF23FC528C008CB63C /* ViewPostDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

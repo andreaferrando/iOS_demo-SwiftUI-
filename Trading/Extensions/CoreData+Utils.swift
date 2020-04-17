@@ -2,13 +2,12 @@
 //  CoreData+Utils.swift
 //
 //
-//  Created by Capco.
-//  Copyright © 2019 Capco. All rights reserved.
+//  Created by Andrea Ferrando
+//  Copyright © 2020 Andrea Ferrando. All rights reserved.
 //
 
 import Foundation
 import CoreData
-
 
 protocol StructDecoder {
     // The name of our Core Data Entity
@@ -28,7 +27,7 @@ enum SerializationError: Error {
 
 extension StructDecoder {
     func toCoreData(context: NSManagedObjectContext) throws -> NSManagedObject {
-        let entityName = type(of:self).EntityName
+        let entityName = type(of: self).EntityName
 
         // Create the Entity Description
         guard let desc = NSEntityDescription.entity(forEntityName: entityName, in: context)
@@ -51,10 +50,6 @@ extension StructDecoder {
     }
 }
 
-
-
-
-
 extension NSManagedObjectContext {
     
     func deleteAllData(entity: String) {
@@ -72,4 +67,18 @@ extension NSManagedObjectContext {
         }
     }
 
+}
+
+extension NSManagedObject {
+
+    func toJson() -> [String: Any] {
+        var dict: [String: Any] = [:]
+        for attribute in self.entity.attributesByName {
+            //check if value is present, then add key to dictionary so as to avoid the nil value crash
+            if let value = self.value(forKey: attribute.key) {
+                dict[attribute.key] = value
+            }
+        }
+        return dict
+    }
 }

@@ -1,5 +1,5 @@
 //
-//  HomeLocalDataManager.swift
+//  PostDetailsLocalDataManager.swift
 //
 //  Created by Andrea Ferrando
 //  Copyright © 2020 Andrea Ferrando. All rights reserved.
@@ -10,7 +10,7 @@ import UIKit
 import Combine
 import CoreData
 
-class HomeLocalDataManager: HomeInteractorToLocalDataManagerProtocol {
+class PostDetailsLocalDataManager: PostDetailsInteractorToLocalDataManagerProtocol {
 
     lazy var managedContext: NSManagedObjectContext? = {
         return (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext

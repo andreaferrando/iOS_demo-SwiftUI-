@@ -3,21 +3,24 @@
 //
 //
 //  Created by
-//  Copyright © 2019 Capco. All rights reserved.
+//  Copyright © 2020 Andrea Ferrando. All rights reserved.
 //
 
 import Foundation
 
 protocol ConfigurationDelegate {
     var baseUrl: String { get }
-    
     func isMock() -> Bool
+}
+
+enum ApiEndPoints {
+    case posts, comments, users
 }
 
 class Configuration: ConfigurationDelegate {
     
     var baseUrl: String = ""
-    
+
     private enum typeConfiguration: String {
         case mock, dev, qa, uat, prod
     }
@@ -48,7 +51,7 @@ class Configuration: ConfigurationDelegate {
                     return
             }
             self.type = type
-            print(typeString)
+//            print(typeString)
             setConfig(dict)
         } catch {
             // handle error
